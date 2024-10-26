@@ -1,0 +1,91 @@
+/* .text-container {
+  padding: 0px;
+  position: 'absolute';
+  top: '300px';
+  margin-left: '1000px';
+  margin-bottom: 700px;
+  width: 400px;
+  background-color: #0333b9;
+  /* Blue background like in the image */
+  /*color: white;
+} */
+
+.heading {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800; /* Bold weight for the heading */
+  font-size: 75px;   /* Adjust the size so it fits */
+  margin-left: 30px;   /* Move heading from the left */
+  margin-right: 800px;   /* Adjust to remove any extra right margin */
+  margin-top: 150px; /* Space from the top */
+  margin-bottom: 700px; /* Space between heading and paragraph */
+  text-align: left;   /* Ensure text is left-aligned */
+  color: white;
+  display: block; 
+  padding-top: 5px;
+}
+
+/* Style for the paragraph */
+.paragraph {
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px; 
+  color: white;
+  max-width: 700px; 
+  position: absolute;
+  margin-top: -83vh; 
+  margin-left: 35px;
+  text-align: left;
+  line-height: 1.5;
+  display: block; 
+  padding-top: 2px;
+  
+}
+
+/* Style for the buttons */
+.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px; /* Space between the buttons */
+  margin-top: 20px; /* Add spacing between text and buttons */
+  margin-bottom: 200px;
+}
+
+.button {
+  background-color: white;
+  color: black;
+  padding: 15px 30px;
+  border-radius: 30px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 35px;
+  bottom: 230px;
+  position: absolute;
+}
+
+.button-alt {
+  background-color: black;
+  color: white;
+  padding: 15px 50px;
+  border-radius: 50px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 35px;
+  position: absolute;
+  bottom: 150px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Aligns text to the left */
+  gap: 20px; /* Space between the paragraph and buttons */
+  max-width: 700px; /* Ensures a consistent width */
+  margin: 20px; /* Adds some margin */
+}
+
+@media (min-width: 768px) {
+  .text-container {
+    align-items: flex-start;
+  }
+}

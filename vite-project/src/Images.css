@@ -1,0 +1,38 @@
+/* Images.css */
+.discord-background {
+    position: absolute;
+    bottom: 0;
+    right: 235px;
+    width: 650px;
+  }
+  
+  .discord-logo {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 150px;
+  }
+  
+  .menu-icon {
+    position: absolute;
+    top: 20px;
+    right: 80px;
+    width: 40px;
+  }
+  
+  @media (max-width: 768px) {
+    .discord-background {
+      width: 350px;
+      right: 20px;
+    }
+  
+    .discord-logo {
+      width: 80px;
+    }
+  
+    .menu-icon {
+      width: 25px;
+      right: 20px;
+    }
+  }
+  
